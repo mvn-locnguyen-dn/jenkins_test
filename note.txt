@@ -1,0 +1,8 @@
+docker run -it -p 8080:8080 -p 50000:50000 jenkins/jenkins:lts
+
+docker logs
+
+
+CI(Continuous Integration) là Là tích hợp liên tục, nhằm liên tục tích hợp các source code của các thành viên trong team lại một cách nhanh chóng.
+
+CD(Continuous Delivery) là chuyển giao liên tục, là 1 tập hợp các kỹ thuật để triển khai tích hợp souce code trên môi trường staging ( một môi trường rất giống với môi trường production).
